@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T12:09:51.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.3.0" etag="VvMdwNR2CGl7m0IZHPOI" type="github"><diagram id="ToaAPnPsbzcww-hsL6bw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-15T12:30:30.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tyoHbIDnX7aNo3kaY7Gb" version="20.3.0" type="github">
+  <diagram id="ToaAPnPsbzcww-hsL6bw" name="第 1 页">
+    <mxGraphModel dx="782" dy="380" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;实例一、&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;某公司欲开发一款儿童玩具汽车，为了更好地吸引小朋友的注意力，该&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;玩具汽车在移动过程中伴随着灯光闪烁和声音提示。在该公司以往的产品&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;中已经实现了控制灯光闪烁（例如警灯闪烁）和声音提示（例如警笛音效）&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;的程序，为了重用先前的代码并且使得汽车控制软件具有更好的灵活性和&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;扩展性，现使用适配器模式设计该玩具汽车控制软件&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="30" width="510" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=15;endArrow=block;endFill=1;" edge="1" parent="1" source="iiGA-FPhLLRn91ZHNXkT-24" target="iiGA-FPhLLRn91ZHNXkT-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-24" value="client" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="160" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=15;" vertex="1" parent="iiGA-FPhLLRn91ZHNXkT-24">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-28" value="CarController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="340" y="330" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=15;" vertex="1" parent="iiGA-FPhLLRn91ZHNXkT-28">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-31" value="+ move(): void&#xa;+phonate():void&#xa;+twinkle():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="iiGA-FPhLLRn91ZHNXkT-28">
+          <mxGeometry y="34" width="160" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.413;entryY=1.01;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;endArrow=block;endFill=0;" edge="1" parent="1" source="iiGA-FPhLLRn91ZHNXkT-33" target="iiGA-FPhLLRn91ZHNXkT-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-33" value="PolicCarAdapter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="260" y="520" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-34" value="-sound : PolicSound&#xa;-lamp:PolicLamp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="iiGA-FPhLLRn91ZHNXkT-33">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-35" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=15;" vertex="1" parent="iiGA-FPhLLRn91ZHNXkT-33">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-36" value="+policeCarAdapter()&#xa;+phonate():void&#xa;+twinkle():void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="iiGA-FPhLLRn91ZHNXkT-33">
+          <mxGeometry y="98" width="160" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.271;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=15;endArrow=diamond;endFill=1;" edge="1" parent="1" source="iiGA-FPhLLRn91ZHNXkT-39" target="iiGA-FPhLLRn91ZHNXkT-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-39" value="PoliceSound" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="580" y="480" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=15;" vertex="1" parent="iiGA-FPhLLRn91ZHNXkT-39">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-42" value="+ alarmSound(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="iiGA-FPhLLRn91ZHNXkT-39">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-43" value="PoliceLamp" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="570" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-45" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;fontSize=15;" vertex="1" parent="iiGA-FPhLLRn91ZHNXkT-43">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-46" value="+ alarmLamp(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=15;" vertex="1" parent="iiGA-FPhLLRn91ZHNXkT-43">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="iiGA-FPhLLRn91ZHNXkT-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=15;endArrow=diamondThin;endFill=1;" edge="1" parent="1" source="iiGA-FPhLLRn91ZHNXkT-46" target="iiGA-FPhLLRn91ZHNXkT-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
