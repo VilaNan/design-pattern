@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T08:57:29.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="78Y40UycxuX4FtQao-GA" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T09:05:19.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qbxBUcA1x8brwOOaO-9c" version="20.3.0" type="github">
   <diagram id="r3CuWSpLD6NK1Gz0DVxi" name="第 1 页">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,6 +47,9 @@
         </mxCell>
         <mxCell id="2YPaTqIDc-VJyDTXO4vi-14" value="具体&lt;br&gt;实现2" style="html=1;fontSize=15;" vertex="1" parent="1">
           <mxGeometry x="490" y="400" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2YPaTqIDc-VJyDTXO4vi-17" value="桥接模式的定义：将抽象部分和实现部分解耦，使得两者能够独立变化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="43" y="480" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
