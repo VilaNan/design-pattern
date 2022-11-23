@@ -1,12 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T06:54:02.686Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EYqFe1OGVlBw9UA9atdv" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T06:54:34.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BFITlMd5GAbEKjmD0hEc" version="20.6.0" type="github">
   <diagram id="ToaAPnPsbzcww-hsL6bw" name="第 1 页">
     <mxGraphModel dx="782" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iiGA-FPhLLRn91ZHNXkT-1" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;实例一、&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;某公司欲开发一款儿童玩具汽车，为了更好地吸引小朋友的注意力，该&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;玩具汽车在移动过程中伴随着灯光闪烁和声音提示。在该公司以往的产品&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;中已经实现了控制灯光闪烁（例如警灯闪烁）和声音提示（例如警笛音效）&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;的程序，为了重用先前的代码并且使得汽车控制软件具有更好的灵活性和&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 15px;&quot;&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;扩展性，现使用适配器模式设计该玩具汽车控制软件&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="90" y="30" width="510" height="240" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
